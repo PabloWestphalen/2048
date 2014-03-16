@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 500px;
+}
+
+#grid {
+	width: 70%;
+	height: 70%;
+	border: solid 1px black;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	visibility: hidden;
+}
+
+
+.block, .numberBlock {
+	width: 25%;
+  	height: 25%;
+	border: solid 1px green;
+	display: block;
+	float: left;
+	color: white;
+	font-family: "Arial";
+	font-weight: bold;
+	text-align: center;
+	/*font-size: 100%;
+	line-height: 100%;*/
+
+	
+}
+
+.numberBlock {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: blue;
+  /*transition: left 400ms, top 400ms;*/
+  display: none;
+  transition: background-color 100ms;
+}
+
